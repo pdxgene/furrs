@@ -1,5 +1,5 @@
-function init(){
-	var map = L.mapbox.map('map', 'pdxgene.i8i47klp');
+function init(mapid){
+	var map = L.mapbox.map('map', mapid);
 	getIssues(map);
 }
 
